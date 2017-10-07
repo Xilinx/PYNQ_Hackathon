@@ -9,7 +9,7 @@ open-source project from Xilinx that makes it easy to design embedded systems
 with Xilinx Zynq All Programmable Systems on Chips. Teams of up to 4 people 
 create something new and wonderful.
 
-More information can be found at ![FAQ](https://www.xilinx.com/content/dam/xilinx/imgs/events/hackathon/hackathon-faq.pdf).
+More information can be found at [FAQ](https://www.xilinx.com/content/dam/xilinx/imgs/events/hackathon/hackathon-faq.pdf).
 
 This event is full, registration is now closed.
 
