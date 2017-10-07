@@ -7,7 +7,7 @@ We focused on audio based spectrum analyzers, and attempted to add our own Overl
 See the various folders included for note books containing working audio spectrum analyzers.
 
 Members:
-	Steven Armour
-	Todd Franks
-	Todd Slepicka
-	Randy Direen
+* Steven Armour
+* Todd Franks
+* Todd Slepicka
+* Randy Direen
