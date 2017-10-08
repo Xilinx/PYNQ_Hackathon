@@ -1,0 +1,39 @@
+html{
+	margin: 0;
+	padding: 0;
+	height:100%;
+	width:100%;
+}
+
+body{
+	background: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/itCjTBE/abstract-yellow-motion-graphic-with-soft-stripes-video-animation-hd-1920x1080_va5g26vnl__F0000.png) no-repeat;
+}
+
+h1{
+	font-size: 90px;
+	text-align: center;
+}
+
+h2{
+	font-size: 60px;
+	text-align:center;
+}h2{
+	font-size: 60px;
+	text-align:center;
+}
+
+.btnIndex{
+	display:block; /* change this from inline-block */
+	width:20%; /* setting the width */
+	margin:0 auto;
+	text-align:center;
+	border-radius: 9px;
+	font-family: 'Oswald', sans-serif;
+	color: #000000;
+	font-size: 135%;
+	padding: 10px 20px;
+	border: solid #000000 3px;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-shadow: 0px 0px 50px #000;
+}
