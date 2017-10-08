@@ -1,6 +1,7 @@
 
 Audio Spectrum Analyzer
 =======================
+Author: Randy Direen 
 
 Spectrum analyzer that uses the PYNQ onboard mic 
 
