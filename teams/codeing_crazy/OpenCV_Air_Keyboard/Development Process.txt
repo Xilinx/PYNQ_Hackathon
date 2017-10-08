@@ -1,0 +1,32 @@
+OpenCV Air Keyboard
+
+Git: https://github.com/ChaseStewart/XilinxPynqHackathon2017
+
+This is a Virtual Piano player built on a Xilinx FPGA PYNQ board The project demonstrates real time audio/video processing capabililties of the board
+
+The project revolves around PYNQ. We have used OpenCV to process video and PYNQ's Audio pipeline to stream Audio Output. We use Logitech Camera to stream Video at 720p and process it. The Monitor displays the virtual Keyboard on which user can point to the key to be pressed. The PYNQ detects the motion, extracts the image and contours it. It looks into the predefined data base and maps correct note to the corresponding key and loads it to the audio buffer which is streamed out of AUDIO out.
+
+Hardware Requirements
+
+1. Xilinx PYNQ Z1
+2. Logitech Camera
+3. HDMI Monitor
+
+Software Requirements
+
+1. Python3.x
+2. OpenCV package
+3. Common Python packages(Eg: numpy)
+4. Jupyter
+
+Process
+
+For purpose of demonstration for the hackathon, we designed 8 discrete keys that could be 'pressed' (its all virtual!) that would produce distinct musical notes for the user, akin to playing a piano. In order to go about the process, the camera is continously active looking for any motion detection. We first divided our screen into 8 distinct spaces corresponding to the keys and performed several image processing manourevres on the image frames to detect human hand motion in the space. Some of the processing we did was to perform a RGB to GRAY conversion, resizing the image and calculating the differences of the current frame from the first obtained frame. This difference encodes the change that has happened since and it corresponds to the human hand pressing a particular key. This allows us to identify the key intended to be pressed and is used by our audio generating program (essentially a separate thread) to play the corresponding note. There is some dilation performed on the image to plug the gaps and after identifying the biggest contour, we design a bounding box around it to indicate the human hand. We calculate the centroid of the detected contour to decide which region it falls in.Using the Base overlay of the Pynq board, a lot of the lower level headaches of FPGAs has been removed. The audio files essentially have musical notes of pre-defined frequencies that make use of the Audio module.
+
+Future Expansions
+
+1. Implement MIDI
+2. Background Substraction (evrything except finger tip)
+3. Faster Frame Rate, GPU integration
+4. Audio Output Noise Cancelation
+
