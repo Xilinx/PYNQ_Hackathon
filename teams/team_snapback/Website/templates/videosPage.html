@@ -1,0 +1,25 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<!-- <link rel="stylesheet" type="text/css" href="/home/tyler/Desktop/Hackathon website/hacka_web_server/css/vidoeStyle.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/videoStyle.css">
+	<title>Snapback</title>
+</head>
+
+
+<body>
+	<h1>Viewable Videos:</h1>
+	<ul id="videoList">
+		{% for item in videosList %}
+		<li>
+			<div>
+			<a href="/video/{{item}}">{{item}}</a>
+			<br>
+			</div>
+		</li>
+		{% endfor %}
+	</ul>
+</body>
+
+</html>
