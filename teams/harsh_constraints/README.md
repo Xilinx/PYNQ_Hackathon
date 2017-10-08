@@ -4,3 +4,4 @@ A project to interface a 14-bit LVDS CameraLink imager to a Xilinx Zynq-7000 SoC
 
 Members: Paul, CU Boulder
 
+<img src="https://upload.wikimedia.org/wikipedia/en/9/97/Camera_link_serialization.jpg">
