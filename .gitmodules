@@ -1,0 +1,3 @@
+[submodule "teams/team_questionable"]
+	path = teams/team_questionable
+	url = https://github.com/ColoradoSchoolOfMines/parqyng-lots.git
