@@ -1,3 +1,7 @@
+# Archived Repository
+Thr PYNQ Hackathon repository is no longer supported, please consider the [PYNQ Bootcamp](https://github.com/Xilinx/PYNQ_Bootcamp) repository for similar materials.
+
+
 # PYNQ Hackathon 2017
 
 ![](./logo.JPG)
